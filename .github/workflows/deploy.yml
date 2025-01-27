@@ -12,7 +12,7 @@ jobs:
       id-token: write   # Required for verification of the deployment
 
     environment:
-      name: github-pages
+      name: next-resume
       url: 'https://morieskie.github.io/next-resume'
 
     runs-on: ubuntu-latest
