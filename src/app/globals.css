@@ -1,0 +1,80 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "@/assets/css/normalize.css";
+@import "@/assets/css/animate.css";
+@import "@/assets/css/transition-animations.css";
+@import "@/assets/css/customizations.css";
+@import "@/assets/css/main.css";
+
+/* .subpages {
+  overflow: visible;
+  position: relative;
+} */
+
+.page-portfolio-loaded {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1001;
+  overflow: hidden;
+}
+
+.tags li {
+  margin: 2px;
+}
+
+.max-height-265 {
+  max-height: 265px;
+  overflow-y: hidden;
+  margin-bottom: 5px;
+}
+
+.start-page-content .social-links {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.start-page-content .social-links a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 24px;
+  background-color: #fff;
+  margin: 0 4px;
+  color: #9e9e9e;
+  text-align: center;
+  -webkit-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+.start-page-content .social-links a:hover {
+  -webkit-box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 18px 0 rgba(0, 0, 0, 0.2);
+}
+
+.start-page-content .social-links a i {
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.start-page-content .page-header .photo {
+  border: unset;
+  background-color: unset;
+  border: 3px solid transparent;
+}
+
+.start-page-content .page-header .photo:hover {
+  border: 3px solid #fff;
+  background-color: #fff;
+  box-shadow: 0px 3px 8px 0px;
+}
+
+.start-page-content .page-content div.col-lg-5.col-md-5:nth-child(2) {
+  padding-top: 30px;
+}

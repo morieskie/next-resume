@@ -1,0 +1,53 @@
+name: Next Resume Deployment
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    permissions:
+      pages: write      # Required to deploy to GitHub Pages
+      id-token: write   # Required for verification of the deployment
+
+    environment:
+      name: github-pages
+      url: 'https://morieskie.github.io/next-resume'
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        run: npm i
+
+      - name: Build the Next App
+        run: |
+          npm run build
+          if [ ! -d "./out" ]; then
+            echo "Error: Build directory not found!"
+            exit 1
+          fi
+
+      - name: Debug Directory Contents
+        run: |
+          echo "Root directory contents:"
+          ls -l
+          echo "Build directory contents:"
+          ls -l ./out
+
+      - name: Upload Build Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,107 @@
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+button, input[type="button"], input[type="submit"],
+.site-main-menu > li > a:after,
+.timeline-item:after,
+.skill-percentage,
+.service-icon,
+.lm-pricing .lm-package-wrap.highlight-col .lm-heading-row span:after,
+.portfolio-filters li.active a,
+.portfolio-filters li.active a:hover,
+.testimonials.owl-carousel .owl-nav .owl-prev:hover,
+.testimonials.owl-carousel .owl-nav .owl-next:hover,
+.share-buttons a:hover,
+.fw-pricing .fw-package-wrap.highlight-col .fw-heading-row span:after,
+.cat-links li a,
+.cat-links li a:hover,
+.post-navigation .meta-nav:hover,
+.calendar_wrap td#today,
+.nothing-found p,
+.form-control + .form-control-border,
+.blog-sidebar .sidebar-title h4:after {
+    background-color: #7e6df6;
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    background-color: #7e6df6;
+  }
+  .mobile-header {
+    background-color: #7e6df6;
+  }
+}
+
+a,
+.form-group-with-icon.form-group-focus i,
+.site-title span,
+.header-search button:hover,
+.header-search button:focus,
+.block-title h3 span,
+.header-search button:hover,
+.header-search button:focus,
+.timeline-item .item-period,
+.fun-fact-block .fun-value,
+.blog-card .post-date span,
+.info-block-w-icon i,
+.ajax-page-nav > div.nav-item a:hover,
+.project-general-info .fa,
+.portfolio-page-nav > div.nav-item a:hover,
+.comment-author a:hover,
+.comment-list .pingback a:hover,
+.comment-list .trackback a:hover,
+.comment-metadata a:hover,
+.comment-reply-title small a:hover,
+.entry-title a:hover,
+.entry-meta a:hover,
+.entry-content .edit-link a:hover,
+.post-navigation a:hover,
+.image-navigation a:hover {
+    color: #7e6df6;
+}
+
+a {
+    color: #7e6df6;
+}
+
+a:hover {
+    color: #ff9800;
+}
+
+.border-top,
+.border-bottom,
+.timeline-item,
+.timeline-item:before,
+blockquote,
+.page-links a:hover,
+.paging-navigation .page-numbers.current,
+.paging-navigation a:hover {
+    border-color: #7e6df6;
+}
+
+.testimonial-content .testimonial-text,
+.preloader-spinner:after {
+    border-top-color: #7e6df6;
+}
+
+.section-inner > .page-header,
+.content-area > .page-header {
+    background-color: #7e6df6;
+}
+
+.page-content,
+.custom-page-content .page-content,
+.portfolio-page-content,
+.content-page-with-sidebar .page-content,
+.start-page-content .page-content,
+.single-page-content .content-area .page-content {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.portfolio-grid figure .portfolio-preview-desc .portfolio-preview-desc-inner {
+    background-color: rgba(46,202,127,0.8);
+}
+
+.portfolio-grid figure:nth-child(even) .portfolio-preview-desc .portfolio-preview-desc-inner {
+    background-color: rgba(158,81,243,0.8);
+}
