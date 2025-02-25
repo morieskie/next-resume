@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center" id="title">NextJs Resume</h1>
 
-## Getting Started
+<p align="center"><img src="https://github.com/morieskie/next-resume/blob/main/screenshots/home.png?raw=true" alt="project-image"></p>
 
-First, run the development server:
+<p id="description">Made with Reach v19 Redux NextJS</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<h2>🚀 Demo</h2>
+
+[https://morieskie.github.io/next-resume/](https://morieskie.github.io/next-resume/)
+
+<h2>Project Screenshots:</h2>
+
+<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/home.png?raw=true" alt="project-screenshot" width="200" height="150/">
+
+<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/portfolio.png?raw=true" alt="project-screenshot" width="200" height="150/">
+
+<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/resume.png?raw=true" alt="project-screenshot" width="200" height="150/">
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Redux
+*   NextJS
+*   Page Animations
+*   React Toolkit
+*   React 19
+*   SSG
+*   SSR
+*   CSR
+*   Famer Motion
+
+<h2>🛠️ Installation Steps:</h2>
+
+<p>1. Clone repo</p>
+
+```
+https://github.com/morieskie/next-resume.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p>2. Install dependencies</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<p>3. Build project</p>
 
-## Learn More
+```
+next build
+```
 
-To learn more about Next.js, take a look at the following resources:
+<p>4. Code linting</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm run lint
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<p>5. Start project</p>
 
-## Deploy on Vercel
+```
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+  
+  
+<h2>💻 Built with</h2>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Technologies used in the project:
+
+*   React
+*   NextJs
+*   Redux
+*   React Hooks
+*   SSR
+*   CSR
+*   SSG
+*   Framer Motion
+*   CSS Transitions
+*   CSS Animations
+*   Html
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
