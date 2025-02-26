@@ -10,11 +10,11 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/home.png?raw=true" alt="project-screenshot" width="200" height="150/">
-
-<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/portfolio.png?raw=true" alt="project-screenshot" width="200" height="150/">
-
-<img src="https://github.com/morieskie/next-resume/blob/main/screenshots/resume.png?raw=true" alt="project-screenshot" width="200" height="150/">
+<p align="left">
+  <img src="https://github.com/morieskie/next-resume/blob/main/screenshots/home.png?raw=true" alt="project-screenshot" width="200" height="150/">
+&nbsp; <img src="https://github.com/morieskie/next-resume/blob/main/screenshots/portfolio.png?raw=true" alt="project-screenshot" width="200" height="150/">
+&nbsp; <img src="https://github.com/morieskie/next-resume/blob/main/screenshots/resume.png?raw=true" alt="project-screenshot" width="200" height="150/">
+</p>
 
   
   
