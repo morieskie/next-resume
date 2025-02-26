@@ -34,6 +34,7 @@ export const userSlice = createSlice({
       };
     },
     setUserEducation: (state, action: PayloadAction<IEducation[]>) => {
+      console.log('Education.set', {action})
       return {
         ...state,
         education: action.payload,
